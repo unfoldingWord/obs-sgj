@@ -1,102 +1,106 @@
 <!doctype html>
-<html lang="en">
+<!--suppress ALL -->
+<html lang="sgj">
+<head>
+    <meta charset="utf-8">
 
-    <head>
-        <meta charset="utf-8">
+    <title>unfoldingWord Open Bible Stories</title>
 
-        <title>unfoldingWord Open Bible Stories</title>
+    <meta name="description" content="an unrestricted visual mini-Bible in any language">
+    <meta name="author"
+          content="Created by Distant Shores Media (http://distantshores.org) and the Door43 world missions community (http://door43.org).">
 
-        <meta name="description" content="an unrestricted visual mini-Bible in any language">
-        <meta name="author" content="Created by Distant Shores Media (http://distantshores.org) and the Door43 world missions community (http://door43.org).">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="../../css/reveal.min.css">
+    <link rel="stylesheet" href="../../css/theme/default.css" id="theme">
+    <link rel="stylesheet" href="../../css/uw.css">
 
-        <link rel="stylesheet" href="../../css/reveal.min.css">
-        <link rel="stylesheet" href="../../css/theme/default.css" id="theme">
-        <link rel="stylesheet" href="../../css/uw.css" id="theme">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="../../css/zenburn.css">
 
-        <!-- For syntax highlighting -->
-        <link rel="stylesheet" href="../../css/zenburn.css">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+        if (window.location.search.match(/print-pdf/gi)) {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text../../css';
+            link.href = '../../css/print/pdf.css';
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+    </script>
 
-        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
-        <script>
-            if( window.location.search.match( /print-pdf/gi ) ) {
-                var link = document.createElement( 'link' );
-                link.rel = 'stylesheet';
-                link.type = 'text../../css';
-                link.href = '../../css/print/pdf.css';
-                document.getElementsByTagName( 'head' )[0].appendChild( link );
-            }
-        </script>
+    <!--[if lt IE 9]>
+    <script src="../../js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
 
-        <!--[if lt IE 9]>
-        <script src="../../js/html5shiv.js"></script>
-        <![endif]-->
-    </head>
-    <body>
-
-    <div class="meny">
-        <ul>
-            <li><a href="../01/index.html">1. सृष्टि</a></li>
-            <li><a href="../02/index.html">2. पाप दुनिया में घुसथे</a></li>
-            <li><a href="../03/index.html">3. जल प्रलय</a></li>
-            <li><a href="../04/index.html">4. अब्राम कर संगे परमेसवर कर जबान</a></li>
-            <li><a href="../05/index.html">5. जबान कर बेटा</a></li>
-            <li><a href="../06/index.html">6. परमेसवर इसहाक बर तियारी करथे</a></li>
-            <li><a href="../07/index.html">7. परमेसवर हर याकूब ला आसीरवाद देहीस</a></li>
-            <li><a href="../08/index.html">8. युसूफ अऊ ओकर घर भर ला परमेसवर बछाथे</a></li>
-            <li><a href="../09/index.html">9. परमेसवर हर मूसा ला बलाईस</a></li>
-            <li><a href="../10/index.html">10. दस भऊर</a></li>
-            <li><a href="../11/index.html">11. पसह</a></li>
-            <li><a href="../12/index.html">12. निर्गमन</a></li>
-            <li><a href="../13/index.html">13. इसराएली मन कर संगे परमेसवर कर जबान</a></li>
-            <li><a href="../14/index.html">14. बलुवाही भूइया में भूलाईन</a></li>
-            <li><a href="../15/index.html">15. बात जबान कर देस</a></li>
-            <li><a href="../16/index.html">16. छोड़ाये दार</a></li>
-            <li><a href="../17/index.html">17. दाऊद कर संगे परमेसवर कर जबान</a></li>
-            <li><a href="../18/index.html">18. बटवारा कर राएज</a></li>
-            <li><a href="../19/index.html">19. अगमजानी मन</a></li>
-            <li><a href="../20/index.html">20. प्रवास मतलब दुसर जग में जाए के रहे लागीन अऊ चटिक दिन में फिर आईन</a></li>
-            <li><a href="../21/index.html">21. परमेसवर हर मसीहा ला जबान करथे</a></li>
-            <li><a href="../22/index.html">22. यहन्ना कर जनम</a></li>
-            <li><a href="../23/index.html">23. ईसू कर जनम</a></li>
-            <li><a href="../24/index.html">24. युहन्ना हर ईसू ला बपतिसमा देहीस</a></li>
-            <li><a href="../25/index.html">25. सैतान कर चलते यीसु कर परीक्षा</a></li>
-            <li><a href="../26/index.html">26.  ईसू अपन सेवकाई ला चालू करीस</a></li>
-            <li><a href="../27/index.html">27. सुघर सामरी कर कहनी</a></li>
-            <li><a href="../28/index.html">28. एगोठ जवान धनी आदमी</a></li>
-            <li><a href="../29/index.html">29. निर्दयी सेवक कर कहनी</a></li>
-            <li><a href="../30/index.html">30. ईसू हर पाँच हजार ला खवाईस</a></li>
-            <li><a href="../31/index.html">31. ईसू पानी कर ऊपरे रेगिस</a></li>
-            <li><a href="../32/index.html">32. भुत जटकल लोग अऊ दुखलिहा सवाँघिन ला ईसू चंगा करथे</a></li>
-            <li><a href="../33/index.html">33. किसान कर कहनी</a></li>
-            <li><a href="../34/index.html">34. ईसू आने कहनी ला सुनाथे</a></li>
-            <li><a href="../35/index.html">35. एगोठ दयालु पिता कर कहनी</a></li>
-            <li><a href="../36/index.html">36. रूप हर बदलीस रुपांतरण</a></li>
-            <li><a href="../37/index.html">37. इसु मरल लाजर ला जियाईस</a></li>
-            <li><a href="../38/index.html">38. इसु ला धरवाईन</a></li>
-            <li><a href="../39/index.html">39. ईसू कर जाँच परख</a></li>
-            <li><a href="../40/index.html">40. . ईसू कर क्रूसीकरण</a></li>
-            <li><a href="../41/index.html">41.  परमेसवर हर ईसू ला मृत्यु ले जियाईस</a></li>
-            <li><a href="../42/index.html">42. ईसू हर सवरग में लौट गईस</a></li>
-            <li><a href="../43/index.html">43. कलीसिया शुरू होईस</a></li>
-            <li><a href="../44/index.html">44. पतरस अऊ यूहन्ना एगोठ भिखारी ला चंगा करिन</a></li>
-            <li><a href="../45/index.html">45. फिलिपुस अऊ कुस देस कर अधिकारी</a></li>
-            <li><a href="../46/index.html">46. पोलुस हर मसीही बनिस</a></li>
-            <li><a href="../47/index.html">47. पौलूस अऊ सीलास फिलिप्पी में</a></li>
-            <li><a href="../48/index.html">48. ईसू हर अपन जबान कर अनुसार मसीहा हवे</a></li>
-            <li><a href="../49/index.html">49. परमेसवर कर नावा कानून</a></li>
-            <li><a href="../50/index.html">50. ईसू हर फेर आथे</a></li>
-        </ul>
-        <p><a href="https://unfoldingword.org/stories/">Open Bible Stories Home</a></p>
-    </div>
-    <div class="meny-arrow"></div>
-    <div class="reveal">
-        <div class="slides">
-            <section><h1>22. यहन्ना कर जनम</h1><h3>A Bible story from: Luke 1</h3><div class="uwchecking"><a href="https://unfoldingword.org/quality/" target="_blank"><img src="https://api.unfoldingword.org/obs/jpg/1/checkinglevels/uW-Level1-64px.png" /></a></section>
+<div class="meny">
+    <ul>
+        <li><a href="../01/index.html">1. सृष्टि</a></li>
+        <li><a href="../02/index.html">2. पाप दुनिया में घुसथे</a></li>
+        <li><a href="../03/index.html">3. जल प्रलय</a></li>
+        <li><a href="../04/index.html">4. अब्राम कर संगे परमेसवर कर जबान</a></li>
+        <li><a href="../05/index.html">5. जबान कर बेटा</a></li>
+        <li><a href="../06/index.html">6. परमेसवर इसहाक बर तियारी करथे</a></li>
+        <li><a href="../07/index.html">7. परमेसवर हर याकूब ला आसीरवाद देहीस</a></li>
+        <li><a href="../08/index.html">8. युसूफ अऊ ओकर घर भर ला परमेसवर बछाथे</a></li>
+        <li><a href="../09/index.html">9. परमेसवर हर मूसा ला बलाईस</a></li>
+        <li><a href="../10/index.html">10. दस भऊर</a></li>
+        <li><a href="../11/index.html">11. पसह</a></li>
+        <li><a href="../12/index.html">12. निर्गमन</a></li>
+        <li><a href="../13/index.html">13. इसराएली मन कर संगे परमेसवर कर जबान</a></li>
+        <li><a href="../14/index.html">14. बलुवाही भूइया में भूलाईन</a></li>
+        <li><a href="../15/index.html">15. बात जबान कर देस</a></li>
+        <li><a href="../16/index.html">16. छोड़ाये दार</a></li>
+        <li><a href="../17/index.html">17. दाऊद कर संगे परमेसवर कर जबान</a></li>
+        <li><a href="../18/index.html">18. बटवारा कर राएज</a></li>
+        <li><a href="../19/index.html">19. अगमजानी मन</a></li>
+        <li><a href="../20/index.html">20. प्रवास मतलब दुसर जग में जाए के रहे लागीन अऊ चटिक दिन में फिर आईन</a></li>
+        <li><a href="../21/index.html">21. परमेसवर हर मसीहा ला जबान करथे</a></li>
+        <li><a href="../22/index.html">22. यहन्ना कर जनम</a></li>
+        <li><a href="../23/index.html">23. ईसू कर जनम</a></li>
+        <li><a href="../24/index.html">24. युहन्ना हर ईसू ला बपतिसमा देहीस</a></li>
+        <li><a href="../25/index.html">25. सैतान कर चलते यीसु कर परीक्षा</a></li>
+        <li><a href="../26/index.html">26.  ईसू अपन सेवकाई ला चालू करीस</a></li>
+        <li><a href="../27/index.html">27. सुघर सामरी कर कहनी</a></li>
+        <li><a href="../28/index.html">28. एगोठ जवान धनी आदमी</a></li>
+        <li><a href="../29/index.html">29. निर्दयी सेवक कर कहनी</a></li>
+        <li><a href="../30/index.html">30. ईसू हर पाँच हजार ला खवाईस</a></li>
+        <li><a href="../31/index.html">31. ईसू पानी कर ऊपरे रेगिस</a></li>
+        <li><a href="../32/index.html">32. भुत जटकल लोग अऊ दुखलिहा सवाँघिन ला ईसू चंगा करथे</a></li>
+        <li><a href="../33/index.html">33. किसान कर कहनी</a></li>
+        <li><a href="../34/index.html">34. ईसू आने कहनी ला सुनाथे</a></li>
+        <li><a href="../35/index.html">35. एगोठ दयालु पिता कर कहनी</a></li>
+        <li><a href="../36/index.html">36. रूप हर बदलीस रुपांतरण</a></li>
+        <li><a href="../37/index.html">37. इसु मरल लाजर ला जियाईस</a></li>
+        <li><a href="../38/index.html">38. इसु ला धरवाईन</a></li>
+        <li><a href="../39/index.html">39. ईसू कर जाँच परख</a></li>
+        <li><a href="../40/index.html">40. . ईसू कर क्रूसीकरण</a></li>
+        <li><a href="../41/index.html">41.  परमेसवर हर ईसू ला मृत्यु ले जियाईस</a></li>
+        <li><a href="../42/index.html">42. ईसू हर सवरग में लौट गईस</a></li>
+        <li><a href="../43/index.html">43. कलीसिया शुरू होईस</a></li>
+        <li><a href="../44/index.html">44. पतरस अऊ यूहन्ना एगोठ भिखारी ला चंगा करिन</a></li>
+        <li><a href="../45/index.html">45. फिलिपुस अऊ कुस देस कर अधिकारी</a></li>
+        <li><a href="../46/index.html">46. पोलुस हर मसीही बनिस</a></li>
+        <li><a href="../47/index.html">47. पौलूस अऊ सीलास फिलिप्पी में</a></li>
+        <li><a href="../48/index.html">48. ईसू हर अपन जबान कर अनुसार मसीहा हवे</a></li>
+        <li><a href="../49/index.html">49. परमेसवर कर नावा कानून</a></li>
+        <li><a href="../50/index.html">50. ईसू हर फेर आथे</a></li>
+    </ul>
+    <p><a href="https://unfoldingword.org/stories/">Open Bible Stories Home</a></p>
+</div>
+<div class="meny-arrow"></div>
+<div class="reveal">
+    <div class="slides"><section><h1>22. यहन्ना कर जनम</h1><h3>A Bible story from: Luke 1</h3><div class="uwchecking">
+    <a href="https://unfoldingword.org/quality/" target="_blank">
+        <img src="https://api.unfoldingword.org/obs/jpg/1/checkinglevels/uW-Level1-64px.png" />
+    </a>
+</section>
 <section data-background="https://api.unfoldingword.org/obs/jpg/1/sgj/360px/obs-sgj-22-01.jpg"><p>बीतल बछर में परमेसवर हर अपन लोग मन जग सवरगदूत अऊ अगमजानी कर संगे गोठियाईस। लेकिन ४00 बछर ले परमेसवर हर केकरो जग नई गोठियाईस। एकेच धाएर एकठे सवरग दूत हर जकर्याह नाव कर एकठे सियान याजक जग परमेसवर कर खबर ला पहुंचाईस। जकर्याह अऊ ओकर परानी एलिशेबा परमेसवर कर भगत रहिन। लेकिन ओमन कर एकोठे लईका नई रहिस।</p></section>
 <section data-background="https://api.unfoldingword.org/obs/jpg/1/sgj/360px/obs-sgj-22-02.jpg"><p>सवरग दूत हर जकर्याह जग कहिस “तोर परानी हर एकठे लईका ला जनम देहि। ओकर नाव यहुन्ना धरबे। ओहर पवितर आतमा ले भरल रही अऊ लोग मन ला मसीहा बर तियार करही”। जकर्याह हर उत्तर देहीस “मैं अऊ मोर परानी सियान हाए गए हवन। हमरे लईका ला कइसे जनम दे सकत हवन? मै कैसे जान हु कि मोर जग एकस होही?</p></section>
 <section data-background="https://api.unfoldingword.org/obs/jpg/1/sgj/360px/obs-sgj-22-03.jpg"><p>सवरग दूत हर जकर्याह ला उत्तर देहीस कि “मैं परमेसवर कर चलते ऐ सुस्समाचार ला सुनाए बर तोर ठे आए हो। ताऐ मोर गोईठ ला बिसवास नई करे। एकरले ए लईका कर जनम होअत ले, तएं गोठियाए नई पाबे”। तेकर झटच के जकर्याह हर कोनता होए गईस। सवरग दूत हर जकर्याह ला छोएडके चएल देहीस। तेकर पाछु जकर्याह हर अपन घर में फिर आईस अऊ ओकर परानी हर आशापती होए गईस।</p></section>
@@ -104,87 +108,110 @@
 <section data-background="https://api.unfoldingword.org/obs/jpg/1/sgj/360px/obs-sgj-22-05.jpg"><p>मरियम हर उत्तर देहीस “एहर कइसे हो ही काबर कि मैं तो कुँवारी हवों”? सवरग दूत हर समझाईस “पवितर आतमा तोर उपर उतर ही अऊ परम प्रधान कर शक्ति तोर उपर छाया करही। एकरले परमेसवर कर बेटा लईका हर पवितर होही। मरियम हर बिसवास करिस अऊ सवरग दूत हर जेला कहिस ओला मानिस।</p></section>
 <section data-background="https://api.unfoldingword.org/obs/jpg/1/sgj/360px/obs-sgj-22-06.jpg"><p>सवरग दूत हर मरियम जग गोठियाऐ कर पाछु मरियम हर एलिशेबा जग भेट करे गईस। जैसने एलिशेबा हर मरियम कर जोहार ला सुनिस, एलिशेबा कर लईका ओकर पेट कर भीतरी तरकीस। परमेसवर हर जे जाएत ओमन बर करे रहिस, ओकर सुरता कएरके सवाघिंन मन फुला होइन। एलिशेबा कर संगे तीन महिना रहे कर पाछु मरियम अपन घर में फिर आईस।</p></section>
 <section data-background="https://api.unfoldingword.org/obs/jpg/1/sgj/360px/obs-sgj-22-07.jpg"><p>एलिशेबा हर लईका ला जनम देहे कर पाछु जर्क्याह अऊ एलिशेबा हर ओकर नाव यहुन्ना धरीन जेकस सवरग दूत हर कहे रहिस। फेर परमेसवर हर जकर्याह ला फेर से गोठीयाए बर देहीस। जकर्याह हर कहिस “परमेसवर कर स्तुति हो काबर कि ओहर अपन लोग मन ला सुरता करिस हवे। तएं मोर बेटा परम प्रधान परमेसवर कर अगमजानी कहाबे। तएं लोग मन ला बताबे कि ओमन कर पांप कर क्षमा ओमन के कैसे मिलही।</p></section>
-<section><a href="../23/index.html"><p>आगू कर पाठ</p></a></section>
-            </div>
-        </div>
+<section><a href="../23/index.html"><p>आगू कर पाठ</p></a></section></div>
+</div>
 
-        <script src="../../js/head.min.js"></script>
-        <script src="../../js/reveal.min.js"></script>
-        <script src="../../js/meny.js"></script>
-        <script>
-            // Create an instance of Meny
-            var meny = Meny.create({
-                // The element that will be animated in from off screen
-                menuElement: document.querySelector( '.meny' ),
+<script src="../../js/head.min.js"></script>
+<script src="../../js/reveal.min.js"></script>
+<script src="../../js/meny.js"></script>
+<script>
+    // Create an instance of Meny
+    var meny = Meny.create({
+        // The element that will be animated in from off screen
+        menuElement: document.querySelector('.meny'),
 
-                // The contents that gets pushed aside while Meny is active
-                contentsElement: document.querySelector( '.reveal' ),
+        // The contents that gets pushed aside while Meny is active
+        contentsElement: document.querySelector('.reveal'),
 
-                // [optional] The alignment of the menu (top/right/bottom/left)
-                position: Meny.getQuery().p || 'left',
+        // [optional] The alignment of the menu (top/right/bottom/left)
+        position: Meny.getQuery().p || 'left',
 
-                // [optional] The height of the menu (when using top/bottom position)
-                height: 200,
+        // [optional] The height of the menu (when using top/bottom position)
+        height: 200,
 
-                // [optional] The width of the menu (when using left/right position)
-                width: 300,
+        // [optional] The width of the menu (when using left/right position)
+        width: 300,
 
-                // [optional] Distance from mouse (in pixels) when menu should open
-                threshold: 40,
+        // [optional] Distance from mouse (in pixels) when menu should open
+        threshold: 40,
 
-                // [optional] Use mouse movement to automatically open/close
-                mouse: true,
+        // [optional] Use mouse movement to automatically open/close
+        mouse: true,
 
-                // [optional] Use touch swipe events to open/close
-                touch: true
-            });
+        // [optional] Use touch swipe events to open/close
+        touch: true
+    });
 
-            // API Methods:
-            // meny.open();
-            // meny.close();
-            // meny.isOpen();
+    // API Methods:
+    // meny.open();
+    // meny.close();
+    // meny.isOpen();
 
-            // Events:
-            // meny.addEventListener( 'open', function(){ console.log( 'open' ); } );
-            // meny.addEventListener( 'close', function(){ console.log( 'close' ); } );
-        </script>
+    // Events:
+    // meny.addEventListener( 'open', function(){ console.log( 'open' ); } );
+    // meny.addEventListener( 'close', function(){ console.log( 'close' ); } );
+</script>
 
-        <script>
+<script>
 
-            var flyOutNotes;
+    var flyOutNotes;
 
-            // Full list of configuration options available here:
-            // https://github.com/hakimel/reveal.js#configuration
-            Reveal.initialize({
-                controls: true,
-                progress: true,
-                history: true,
-                center: false,
-                width: '100%',
-                height: '100%',
-                margin: 0,
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: false,
+        width: '100%',
+        height: '100%',
+        margin: 0,
 
-                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-                transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
 
-                // Parallax scrolling
-                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-                // parallaxBackgroundSize: '2100px 900px',
+        // Parallax scrolling
+        // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+        // parallaxBackgroundSize: '2100px 900px',
 
-                // Optional libraries used to extend on reveal.js
-                dependencies: [
-                    { src: '../../js/classList.js', condition: function() { return !document.body.classList; } },
-                    { src: '../../js/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: '../../js/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: '../../js/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-                    { src: '../../js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-                    { src: '../../js/obs-notes.js', async: true, callback: function() {
-                        flyOutNotes = new FlyOutNotes();
-                        window.addEventListener('hashchange', function() { flyOutNotes.loadNotes() });
-                    } }
-                ]
-            });
-        </script>
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+            {
+                src: '../../js/classList.js', condition: function () {
+                return !document.body.classList;
+            }
+            },
+            {
+                src: '../../js/marked.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: '../../js/markdown.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            }
+            },
+            {
+                src: '../../js/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            },
+            {
+                src: '../../js/zoom.js', async: true, condition: function () {
+                return !!document.body.classList;
+            }
+            },
+            {
+                src: '../../js/obs-notes.js', async: true, callback: function () {
+                flyOutNotes = new FlyOutNotes();
+                window.addEventListener('hashchange', function () {
+                    flyOutNotes.loadNotes()
+                });
+            }
+            }
+        ]
+    });
+</script>
 
-    </body>
+</body>
 </html>
